@@ -9,6 +9,6 @@ public class Problem_2_Set_1 {
         String username;
         System.out.println("Enter username:");
         username = sc.nextLine();
-        System.out.println("Hello," + username);
+        System.out.println("Hello, " + username);
     }
 }
