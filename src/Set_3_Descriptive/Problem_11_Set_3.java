@@ -10,8 +10,6 @@ public class Problem_11_Set_3 {
         System.out.print("Enter kg of pulp, N: ");
         N = sc.nextDouble();
         double total = N * 10;
-        System.out.print("Number of notebook = ");
-        System.out.printf("%.2f", total);
-        System.out.print("\n");
+        System.out.println("Number of notebook = "+(int)Math.floor(total));
     }
 }

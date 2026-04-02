@@ -14,7 +14,7 @@ public class Problem_8_Set_3 {
         System.out.print("Enter number of students passed, Z: ");
         z = sc.nextInt();
         double percent = ((double) z / (x * y)) * 100;
-        System.out.println("Percentage of passing students = " + percent);
+        System.out.println("Percentage of passing students = " + percent+"%");
         if (percent > 50) {
             System.out.println("Percentage is strictly greater than 50%");
         } else {
